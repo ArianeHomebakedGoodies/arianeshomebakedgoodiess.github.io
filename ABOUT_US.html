@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="with=device-width, initial-scale=1.0">
+        <title>Arieanne's Handbaked Goodies</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="shortcut icon" type="image" href="IMAGES/logo.png">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+
+        <!-------Header section------>
+
+        <header>
+
+            <nav>
+                <a href="mainweb.html"><img src='IMAGES/logo.png' class="logo"></a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="mainweb.html">HOME</a></li>
+                        <li><a href="PRODUCT.html">PRODUCTS</a></li>
+                        <li><a href="EVENTS.html">EVENTS</a></li>
+                        <li><a href="ABOUT_US.html">ABOUT US</a></li>
+                        <li><a href="CONTACT_US.html">CONTACT US</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+
+        </header>
+        
+        <!-------MAIN MENU / TOP IMG,BUTTONS,VICE VERSA------>
+
+        <section class="Sub_header">
+
+            <video autoplay loop muted plays-inline class="back-video">
+                <source src="IMAGES/ABOUTUSvid.mp4" type="">
+            </video>
+
+            <h1>ABOUT US</h1>
+        </section>
+
+        <!-------ABOUT CONTENT------>
+
+        <section class="about_us">
+
+            <div class="row">
+                <div class="about_col">
+                    <h1>My Journey</h1>
+                    <p>I had no idea I had a passion for baking until I 
+                        made a cake for our family's Christmas Eve in 
+                        the year of 2019. That is why my family encouraged 
+                        me to turn this passion into a business. I prepared 
+                        all the equipment and tools I would require to launch 
+                        this firm. after many delays and hardships, I was 
+                        able to acquire all of what I need and obtained my 
+                        business permit to properly launch my firm thanks to 
+                        my family's unwavering support.</p>
+                    <p>
+                        It was difficult at first because not many people 
+                        actually knew about my business, but thanks to my 
+                        close relatives and friends who helped me out by 
+                        supporting it and doing business with me, I was able 
+                        to extensively grow my business in many locations 
+                        here in Daet. Additionally, providing a service like 
+                        delivering their purchases makes it much more appealing 
+                        to our clients.</p>
+                    <p> 
+                        I have made baking my habit, passion, and business 
+                        up to this point, and I intend to keep doing so since, 
+                        in addition to bringing me income, baking also makes 
+                        me happy when I bake and when I watch my clients 
+                        enjoying my goodies.</p>
+                    <a href="" class="main-btn colorbtn">SEE MORE</a>
+                </div>
+                <div class="about_col">
+                    <img src="IMAGES/logo.png">
+                </div>
+            </div>
+
+
+        </section>
+        
+
+        <!-------FOOTER------>
+        
+        <section class="footer">
+            <h4>CONTACTS</h4>
+            <p>Hail thy Queen Ryza, peasants</p>
+
+            <div class="icon">
+                <a href="https://www.facebook.com/profile.php?id=100064094050836" target="_blank"><i class="fa fa-facebook"></i></a>
+                <i class="fa fa-twitter"></i>
+                <i class="fa fa-instagram"></i>
+                <i class="fa fa-linkedin"></i>
+            </div>
+            <p>Made with <i class="fa fa-heart-o"></i> Alagad ni Ryza</p>
+        </section>
+
+
+
+<!-------JS------>
+    <script>
+
+        var navLinks = document.getElementById("navLinks")
+
+        function showMenu(){
+            navLinks.style.right= "0";
+        }
+        function hideMenu(){
+            navLinks.style.right="-200px";
+        }
+    </script>
+
+    </body>
+</html>

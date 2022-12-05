@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="with=device-width, initial-scale=1.0">
+        <title>Arieanne's Handbaked Goodies</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="shortcut icon" type="image" href="IMAGES/logo.png">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+
+        <header>
+
+            <nav>
+                <a href="mainweb.html"><img src='IMAGES/logo.png' class="logo"></a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="mainweb.html">HOME</a></li>
+                        <li><a href="PRODUCT.html">PRODUCTS</a></li>
+                        <li><a href="EVENTS.html">EVENTS</a></li>
+                        <li><a href="ABOUT_US.html">ABOUT US</a></li>
+                        <li><a href="CONTACT_US.html">CONTACT US</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+
+        </header>
+
+        <!-------MAIN MENU / TOP IMG,BUTTONS,VICE VERSA------>
+
+        <section class="Sub_header">
+
+            <video autoplay loop muted plays-inline class="back-video">
+                <source src="IMAGES/EVENTvid.mp4" type="">
+            </video>
+            
+            <h1>EVENTS</h1>
+
+        </section>
+
+        <!-------EVENT CONTENT------>
+
+        <section class="contact_us_content">
+
+            <div class="row">
+                <div class="contact_left">
+                    <img src="IMAGES/mi-bakery-1.jpg">
+                    <h2>Events we currently inquired</h2>
+                    <p>We offer a few yet expertly made coffee and lattes. 
+                        Pair it with our delicious choices of pastries, cakes, 
+                        omelette, or breakfast meals and you're in for a good day ahead!</p>
+                    <br>
+                    <p>Hungry at snack time? Maybe you need a full meal at dinner time? 
+                        No need to worry! Because at Coffee and Cream, brunch doesn't end!</p>
+                    <br>
+                    <p>It's not a good meal without dessert. At Coffee and Cream, we make 
+                        sure you get a wide choice of sugary delights</p>
+                    
+                </div>
+                <div class="feedback_box">
+
+                    <h3>Leave a message</h3>
+
+                <form class="message_form" action="https://formsubmit.co/61e91fb4b1ce9b4827c1c8bbf4ba87d9" method="POST">
+                    <input type="text" name="Name" placeholder="Enter Name" required>
+                    <input type="email" name="Email" placeholder="Enter Email" required>
+                    <textarea rows="5" name="Message" placeholder="Your Comment" required></textarea>
+                    <button type="submit" class="main-btn colorbtn">POST MESSAGE</button>
+                </form>
+                </div>    
+            </div>
+        </section>
+
+
+        <!-------ABOUT CONTENT------>
+
+        <section class="bottom_sentence">
+            <h1>We can inquire for different kinds of Events!</h1>
+            <p>Even if its a wedding, birthday celebrations or any other occasions!</p>
+
+            <div class="row">
+                <div class="sentence_col">
+                    <h3>Birthday Parties</h3>
+                    <p>With our Birthday Party Package, organizing your relative's upcoming 
+                       birthday party is simple. The Birthday Party Package will enable you 
+                       to affordably add these personal touches to your upcoming celebration 
+                       so that you can unwind and take pleasure in the event with your guests. 
+                       You choose the cake, cupcakes, and drinks for your party, as well as 
+                       the theme and decorations. </p>
+                </div>
+                <div class="sentence_col">
+                    <h3>Wedding Celebrations</h3>
+                    <p>Our Wedding Package makes it simple for you and your spouse to plan 
+                        your wedding festivities. The Wedding Package will enable you to 
+                        affordably add those particular touches to your next event so that 
+                        you may relax and take pleasure in the moment with your guests, 
+                        family and friends. You choose the wedding's décor, cake, cupcakes, 
+                        menu, and many other more. </p>
+                </div>
+                <div class="sentence_col">
+                    <h3>Other Occasions</h3>
+                    <p>Please don't hesitate to call us if you need any extra arrangements 
+                        to make your occasion unique. You don't need to waste any more 
+                        time searching for a reputable and reasonably priced social event 
+                        organizer! Our management at Ariane's Homemade Goodies is aware that, 
+                        whether you have a big or small budget, you will get the best you 
+                        can buy. </p>
+                </div>
+            </div>
+            <div class="row1">
+                <div class="sentence_col">
+                    <h3>Hang-out with Friends</h3>
+                    <p>Please don't hesitate to call us if you need any extra arrangements 
+                        to make your events like hanging out with friends memorable. With 
+                        our package, you can enjoy your time with friends while eating our 
+                        deliciously homemade cupcakes and other pastries. </p>
+                </div>
+                <div class="sentence_col">
+                    <h3>Hungry?</h3>
+                    <p>If you're just hungry, then don't hesitate to call us if you need 
+                        any goodies or pastries to satisfy your cravings in cakes, 
+                        cupcakes, breads and many more. </p>
+                </div>  
+            </div>
+        </section>
+
+
+        </section>
+        
+
+        <!-------FOOTER------>
+        
+        <section class="footer">
+            <h4>CONTACTS</h4>
+            <p>Hail thy Queen Ryza, peasants</p>
+
+            <div class="icon">
+                <a href="https://www.facebook.com/profile.php?id=100064094050836" target="_blank"><i class="fa fa-facebook"></i></a>
+                <i class="fa fa-twitter"></i>
+                <i class="fa fa-instagram"></i>
+                <i class="fa fa-linkedin"></i>
+            </div>
+            <p>Made with <i class="fa fa-heart-o"></i> Alagad ni Ryza</p>
+        </section>
+
+
+
+<!-------JS------>
+    <script>
+
+        var navLinks = document.getElementById("navLinks")
+
+        function showMenu(){
+            navLinks.style.right= "0";
+        }
+        function hideMenu(){
+            navLinks.style.right="-200px";
+        }
+    </script>
+
+    </body>
+</html>

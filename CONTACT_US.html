@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="with=device-width, initial-scale=1.0">
+        <title>Arieanne's Handbaked Goodies</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="shortcut icon" type="image" href="IMAGES/logo.png">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+
+        <header>
+
+            <nav>
+                <a href="mainweb.html"><img src='IMAGES/logo.png' class="logo"></a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="mainweb.html">HOME</a></li>
+                        <li><a href="PRODUCT.html">PRODUCTS</a></li>
+                        <li><a href="EVENTS.html">EVENTS</a></li>
+                        <li><a href="ABOUT_US.html">ABOUT US</a></li>
+                        <li><a href="CONTACT_US.html">CONTACT US</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+
+        </header>
+
+        <!-------MAIN MENU / TOP IMG,BUTTONS,VICE VERSA------>
+
+        <section class="Sub_header">
+
+            <video autoplay loop muted plays-inline class="back-video">
+                <source src="IMAGES/CONTACTUSvid.mp4" type="">
+            </video>
+
+            <h1>CONTACT US</h1>
+
+        </section>
+
+        <!-------CONTACT US CONTENT------>
+
+        <section class="contact-body">
+
+            <div class="contact-section">
+                <div class="contact-info">
+                    <div><i class="fa fa-phone" aria-hidden="true"></i>09467448345</div>
+                    <div><i class="fa fa-map-marker" aria-hidden="true"></i>Bagasbas Branch, Daet, Camarines Norte</div>
+                    <div><i class="fa fa-envelope" aria-hidden="true"></i>gutierrezarianemae@yahoo.com</div>
+                    <div><i class="fa fa-facebook-official" aria-hidden="true"></i><a href="https://www.facebook.com/profile.php?id=100064094050836" target="_blank" style="text-decoration:none;color:black">Ariane's Homebaked Goodies</a></div>
+                </div>
+
+                <div class="contact_box">
+                    <h3>Send us a message:</h3>
+                <form class="contact-form" action="https://formsubmit.co/61e91fb4b1ce9b4827c1c8bbf4ba87d9" method="POST">
+                    <input type="text" name="Name" placeholder="Enter Name" required>
+                    <input type="email" name="Email" placeholder="Enter Email" required>
+                    <textarea rows="5" name="Message" placeholder="Your Comment" required></textarea>
+                    <button type="submit" class="main-btn colorbtn">SEND MESSAGE</button>
+                </form>
+                </div>
+            </div>
+
+
+        </section>
+        
+
+        <!-------FOOTER------>
+        
+        <section class="footer">
+            <h4>CONTACTS</h4>
+            <p>Hail thy Queen Ryza, peasants</p>
+
+            <div class="icon">
+                <a href="https://www.facebook.com/profile.php?id=100064094050836" target="_blank"><i class="fa fa-facebook"></i></a>
+                <i class="fa fa-twitter"></i>
+                <i class="fa fa-instagram"></i>
+                <i class="fa fa-linkedin"></i>
+            </div>
+            <p>Made with <i class="fa fa-heart-o"></i> Alagad ni Ryza</p>
+        </section>
+
+
+
+<!-------JS------>
+    <script>
+
+        var navLinks = document.getElementById("navLinks")
+
+        function showMenu(){
+            navLinks.style.right= "0";
+        }
+        function hideMenu(){
+            navLinks.style.right="-200px";
+        }
+    </script>
+
+    </body>
+</html>

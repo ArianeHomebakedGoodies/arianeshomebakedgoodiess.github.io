@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="with=device-width, initial-scale=1.0">
+        <title>Arieanne's Handbaked Goodies</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="shortcut icon" type="image" href="IMAGES/logo.png">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@600&family=Merienda:wght@800&family=Poppins&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+
+        <!-------Header section------>
+
+        <header>
+
+            <nav>
+                <a href="mainweb.html"><img src='IMAGES/logo.png' class="logo"></a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="mainweb.html">HOME</a></li>
+                        <li><a href="PRODUCT.html">PRODUCTS</a></li>
+                        <li><a href="EVENTS.html">EVENTS</a></li>
+                        <li><a href="ABOUT_US.html">ABOUT US</a></li>
+                        <li><a href="CONTACT_US.html">CONTACT US</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+
+        </header>
+        
+        <!-------MAIN MENU / TOP IMG,BUTTONS,VICE VERSA------>
+
+        <section class="header1">
+
+            <video autoplay loop muted plays-inline class="back-video">
+                <source src="IMAGES/HOMEvid.mp4" type="">
+            </video>
+
+            <div class="text-box">
+                <h1>Arianne's Homebaked Goodies</h1>
+                <br>
+                <br>
+                <br>
+                <a href="#mid" class="main-btn color">Know More</a>
+            </div>
+
+
+        </section>
+
+        <!-------BOTTOM SENTENCE AFTER IMAGE------>
+
+        <section id="mid" class="bottom_sentence">
+            <h1>We offer</h1>
+
+            <div class="row">
+                <div class="sentence_col">
+                    <h3>Cakes</h3>
+                    <p>We offer few yet expertly made cakes. With our delicious choices of different types 
+                        of cakes, you're in for a good and well prepared celebration ahead!<br>
+                        <li>1-tier cake = P700</li>
+                        <li>2-tier cake = P1300</li>
+                        <li>3-tier cake = P2300</li>
+                        <li>If wedding cake: +P100</li>
+                        <li>Note: additional charges may apply depending on the design chosen</li></p>
+                </div>
+                <div class="sentence_col">
+                    <h3>Cupcakes</h3>
+                    <p>Hungry at snack time? Maybe you need deliciously homemade cupcakes? 
+                       No need to worry! Because at Ariane's Homemade Goodies, cupcakes doesn't end!<br>
+                       <li>1 pc of cupcake = P20</li>
+                       <li>Note: additional charges may apply depending on the design chosen</li></p>
+                </div>
+                <div class="sentence_col">
+                    <h3>Pizzas</h3>
+                    <p>It's not a good meal without tasty pizza. At Ariane's Homemade Goodies, we make 
+                        sure you get a wide choice of our pizzas such as pepperoni or hawaian pizzas.<br>
+                        <li>10" Ham & Cheese & Pepperoni Special= P150</li>
+                        <li>12" Ham & Cheese & Pepperoni = P160</li>
+                        <li>12" Hawaian (Less Cheese) = P199</li>
+                        <li>12" Hawaian Special= P220</li>
+                        <li>10" Hawaian = P180</li></p>
+                </div>
+            </div>
+        </section>
+
+        <!-------SAMPLE PRODUCTS------>
+
+        <!-------samp product slider------>
+
+        <section class="samp-product-main">
+
+            <div class="samp-product-frame">
+                <h1>ALWAYS SAVE A ROOM FOR PASTRIES!</h1>
+                    <p>Oh all the kinds of cupcakes,
+                        Filled with sugar and sweet.
+                        They're all sorts of flavors,<br>
+                        And my favorite treat.
+                        Strawberry and vanilla,
+                        Chocolate and peanut-butter.<br>
+                        They're all so delicious,
+                        I have to have another.
+                        But I must resist,<br>
+                        For if I don't there will be trouble.
+                        But try as hard as I might,<br>   
+                        They're all so yummy and loveable!</p>
+
+                <div class="samp-product-container">
+
+                    <div class="wrapper">
+                        <img src="IMAGES/cupcake.jpg">
+                        <img src="IMAGES/sampleCake.jpg">
+                        <img src="IMAGES/cakees.jpg">
+                        <img src="IMAGES/pizaa.jpg">
+                        <img src="IMAGES/SampleProduct2.jpg">
+                        <img src="IMAGES/SampleProduct1.jpg">
+                        <img src="IMAGES/anothersample.jpg">
+                        <img src="IMAGES/anothersample2.jpg">
+                      </div>
+                    
+                </div>
+            </div>
+
+        </section>
+
+        <!-------BOTTOM PART------>
+
+        <section class="call">
+            <h1>Reach to us and say your inquiries</h1>
+            <a href="CONTACT_US.html" class="main-btn">CONTACT US</a>
+        </section>
+
+        <!-------FOOTER------>
+        <section class="footer">
+            <h4>CONTACTS</h4>
+            <p>Hail thy Queen Ryza, peasants</p>
+
+            <div class="icon">
+                <a href="https://www.facebook.com/profile.php?id=100064094050836" target="_blank"><i class="fa fa-facebook"></i></a>
+                <i class="fa fa-twitter"></i>
+                <i class="fa fa-instagram"></i>
+                <i class="fa fa-linkedin"></i>
+            </div>
+            <p>Made with <i class="fa fa-heart-o"></i> Alagad ni Ryza</p>
+        </section>
+
+
+
+<!-------JS------>
+    <script>
+
+        var navLinks = document.getElementById("navLinks")
+
+        function showMenu(){
+            navLinks.style.right= "0";
+        }
+        function hideMenu(){
+            navLinks.style.right="-200px";
+        }
+    </script>
+
+    </body>
+</html>
